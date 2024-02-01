@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <style>
+        .parendiv1 {
+            display: grid;
+            width: 1000px;
+            height: 400px;
+
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 150px 150px 100px 100px 100px;
+
+            grid-gap: 10px;
+
+            background-color: white;
+            grid-template-areas:
+                " a b b  b "
+                " a b b  b "
+                " a c  d d"
+                " e e  d d ";
+
+
+
+        }
+
+
+
+        .child1 {
+            background-image: url(./images/img1.jpg);
+            background-size: cover;
+            grid-area: a;
+
+
+
+
+        }
+
+        .child2 {
+            background-image: url(./images/ig2.jpg);
+            background-size: cover;
+            grid-area: b;
+
+
+
+        }
+
+        .child3 {
+            background-image: url(./images/download.jpg);
+            background-size: cover;
+            grid-area: c;
+
+
+
+
+        }
+
+        .child4 {
+            background-image: url(./images/f1c2c752d0989a0b83302bf810e6a687.jpg);
+            background-size: cover;
+            grid-area: d;
+        }
+
+        .child5 {
+            background-image: url(./images/img1.jpg);
+            background-size: cover;
+            grid-area: e;
+
+
+
+
+        }
+    </style>
+</head>
+<bod>
+    <div class="parendiv1">
+
+        <div id="c1" class="child1">1</div>
+        <div id="c1" class="child2">2</div>
+        <div id="c1" class="child3">3</div>
+        <div id="c1" class="child4">4</div>
+        <div id="c2" class="child5">1</div>
+
+    </div>
+    </div>
+
+</bod>
+
+</html>

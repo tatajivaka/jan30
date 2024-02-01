@@ -1,0 +1,126 @@
+<html>
+
+<head>
+    <style>
+        .parendiv1 {
+            display: grid;
+            
+
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 100px 100px 100px 100px 100px;
+
+            grid-gap: 5px;
+            
+            background-color: white;
+            grid-template-areas:
+                " a a b  b"
+                " a a c  d"
+                " e e f  f"
+                " e e g  h";
+
+
+
+        }
+
+        #c1 {
+            text-align: center;
+            text-transform: capitalize;
+            line-height: 8;
+            background-color: tomato;
+
+
+
+
+
+        }
+        #c2{
+            text-align: center;
+            text-transform: capitalize;
+            line-height: 8;
+            background-color: aqua;
+        }
+
+        .child1 {
+            background-color: yellow;
+            grid-area: a;
+
+
+
+
+        }
+
+        .child2 {
+            background-color: aqua;
+            grid-area: b;
+
+
+
+        }
+
+        .child3 {
+            background-color: red;
+            grid-area: c;
+
+
+
+
+        }
+
+        .child4 {
+            background-color: pink;
+            grid-area: d;
+        }
+
+        .child5{
+            background-color: yellow;
+            grid-area: e;
+
+
+
+
+        }
+
+        .child6 {
+            background-color: aqua;
+            grid-area: f;
+
+
+
+        }
+
+        .child7 {
+            background-color: red;
+            grid-area: g;
+
+
+
+
+        }
+
+        .child8 {
+            background-color: pink;
+            grid-area: h;
+        }
+
+        
+    </style>
+</head>
+<bod>
+    <div class="parendiv1">
+
+        <div id="c1" class="child1">1</div>
+        <div id="c1" class="child2">2</div>
+        <div id="c1" class="child3">3</div>
+        <div id="c1" class="child4">4</div>
+
+
+        <div id="c2" class="child5">1</div>
+        <div id="c2" class="child6">2</div>
+        <div id="c2" class="child7">3</div>
+        <div id="c2" class="child8">4</div>
+    </div>
+    </div>
+
+</bod>
+
+</html>
