@@ -1,0 +1,95 @@
+<html>
+
+<head>
+    <style>
+        .parentdiv {
+          
+            padding: 10px;
+            display: grid;
+            grid-template-columns: 200px 200px 200px 200px 200px;
+            grid-template-rows: 150px 150px 150px 150px;
+            grid-gap: 20px;
+            grid-template-areas:
+                "a  b c d  e"
+                "f  b c d  e" 
+                "f  g h  i j"
+                "l  g h i k ";
+
+        }
+        .parentdiv>div{
+            background-size:cover;
+        }
+        
+        
+        .child1{
+            background-color: yellow;
+            grid-area: a;
+        }
+        .child2{
+            background-color: red;
+            grid-area: b;
+        }
+        .child3{
+            background-color: pink;
+            grid-area: c;
+        }
+        .child4{
+            background-color: blueviolet;
+            grid-area: d;
+        }
+        .child5{
+            background-color: orange;
+            grid-area: e;
+        }
+        .child6{
+            background-color:green;
+            grid-area: f;
+        }
+        .child7{
+            background-color: blueviolet;
+            grid-area: g;
+        }
+        .child8{
+            background-color: orange;
+            grid-area: h;
+        }
+        .child9{
+            background-color:green;
+            grid-area: i;
+        }
+        .child10{
+            background-color: blueviolet;
+            grid-area: j;
+        }
+        .child11{
+            background-color: orange;
+            grid-area: k;
+        }
+        .child12{
+            background-color:green;
+            grid-area: l;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parentdiv">
+        <div id="c1" class="child1"><img src="./imags3/img1.jpeg" width="200px" height="150px"></div>
+        <div id="c1" class="child2"><img src="./imags3/2.jpeg" width="200px" height="360px" ></div>
+        <div id="c1" class="child3"><img src="./imags3/3.jpeg" width="200px" height="360px"></div>
+        <div id="c1" class="child4"><img src="./imags3/4.jpeg" width="200px" height="360px"></div>
+        <div id="c1" class="child5"><img src="./imags3/5.jpeg"width="200px" height="360px"></div>
+        <div id="c1" class="child6"><img src="./imags3/6.jpeg" width="200px" height="360px"></div>
+        <div id="c1" class="child7"><img src="./imags3/7.jpeg" width="200px" height="360px"></div>
+        <div id="c1" class="child8"><img src="imags3/8.jpeg" width="200px" height="360px"></div>
+        <div id="c1" class="child9"><img src="./imags3/10.jpg" width="200px" height="360px"></div>
+        <div id="c1" class="child10"><img src="./imags3/9.jpeg" width="200px" height="150px"></div>
+        <div id="c1" class="child11"><img src="./imags3/11.jpeg" width="200px" height="150px"></div>
+        <div id="c1" class="child12"><img src="./imags3/12.jpeg" width="200px" height="150px"></div>
+    </div>
+
+
+
+</body>
+
+</html>
